@@ -1,6 +1,6 @@
 <template>
     <div class="hello">
-        <h1>{{ msg }}</h1>
+        <h1 class="ui header">{{ msg }}</h1>
     </div>
 </template>
 
@@ -11,6 +11,9 @@
             return {
                 msg: 'Welcome to Your Vue.js App'
             }
+        },
+        mounted: function () {
+            console.log($('.ui.header'));
         }
     }
 </script>

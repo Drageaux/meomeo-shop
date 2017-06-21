@@ -27,5 +27,10 @@ module.exports = {
         'semi': 0,
         // 4-space indent
         'indent': 0
+    },
+    // Other configs...
+    "globals": {
+        "$": true,
+        "jQuery": true
     }
 }
