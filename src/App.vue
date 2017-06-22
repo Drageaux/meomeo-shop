@@ -4,15 +4,8 @@
             <img src="./assets/img/brand.png">
         </div>
         <div id="main-nav" class="ui secondary pointing menu">
-            <a class="active item">
-                Áo Gối
-            </a>
-            <a class="item">
-                Quần Đội Đầu
-            </a>
-            <a class="item">
-                Xu Chiêng
-            </a>
+            <router-link to="/" class="item" active-class="active" exact>Trang Chủ</router-link>
+            <router-link to="/docs" class="item" active-class="active">Docs</router-link>
         </div>
         <router-view></router-view>
     </div>
