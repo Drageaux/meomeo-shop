@@ -47,6 +47,7 @@
         "ora": "^1.2.0",
         "rimraf": "^2.6.0",
         "sass-loader": "^6.0.6",
+        "semantic-ui-css": "^2.2.10",
         "shelljs": "^0.7.6",
         "url-loader": "^0.5.8",
         "vue": "^2.3.3",
