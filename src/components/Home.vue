@@ -1,10 +1,12 @@
 <template>
     <div id="home">
-        <h1 class="ui header">{{ msg }}</h1>
+        <carousel class="ui fluid container"></carousel>
     </div>
 </template>
 
 <script>
+    import carousel from './Home/Carousel.vue'
+
     export default {
         name: 'home',
         data () {
@@ -12,7 +14,8 @@
                 msg: 'Chào mừng đến Ụm Bò Shop'
             }
         },
-        mounted: function () {
+        components: {
+            carousel
         }
     }
 </script>
@@ -20,6 +23,6 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" rel="stylesheet/scss" scoped>
     #home {
-        margin-top: 100px;
+        padding-bottom: 70px;
     }
 </style>
