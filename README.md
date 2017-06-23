@@ -1,6 +1,6 @@
-# meowshop
+# Meomeo Shop
 
-> Meo Meo shop's website
+> Meomeo Shop's website
 
 ## Build Setup
 

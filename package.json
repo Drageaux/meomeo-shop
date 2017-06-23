@@ -1,7 +1,7 @@
 {
-  "name": "meowshop",
+  "name": "meomeo-shop",
   "version": "1.0.0",
-  "description": "Meo Meo shop's website",
+  "description": "Meomeo Shop's website",
   "author": "David Thong Nguyen <thnguyen2808@gmail.com>",
   "private": true,
   "scripts": {
