@@ -5,7 +5,7 @@ app = express();
 
 // Resource loading
 app.use("/node_modules", express.static(__dirname + "../node_modules"));
-app.use("/", express.static(__dirname));
+app.use("/", express.static(__dirname + "/dist"));
 
 
 // Run app
