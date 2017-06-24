@@ -23,12 +23,12 @@
 </script>
 
 <style lang="scss" rel="stylesheet/scss">
-    $color_main: #4593D5;
-    $color_black: #1b1c1d;
+    //noinspection CssUnknownTarget
+    @import "~styles/settings";
 
     #app {
         #header {
-            background: $color_main;
+            background: $color_blue_main;
             height: 135px;
             width: 100%;
             img {

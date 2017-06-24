@@ -22,7 +22,7 @@ let router = new Router({
 })
 
 router.beforeEach((to, from, next) => {
-    window.document.title = to.meta.title ? to.meta.title + ' | Meo Meo Shop' : 'Meo Meo Shop';
+    window.document.title = to.meta.title ? to.meta.title + ' | Meomeo Shop' : 'Meomeo Shop';
     next()
 })
 

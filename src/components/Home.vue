@@ -11,7 +11,7 @@
         name: 'home',
         data () {
             return {
-                msg: 'Chào mừng đến Ụm Bò Shop'
+                msg: 'Chào mừng đến Meomeo Shop'
             }
         },
         components: {

@@ -82,4 +82,14 @@
         margin: 0 !important;
         height: 60vw;
     }
+    @media all and (min-width: 1200px) {
+        #carousel {
+            height: 70vh;
+            .swiper-slide {
+                img {
+                    height:100%;
+                }
+            }
+        }
+    }
 </style>
