@@ -47,7 +47,7 @@
                     debugger: true,
                     // swiper callbacks
                     onTransitionStart (swiper) {
-                        console.log(swiper)
+//                        console.log(swiper)
                     }
                 }
             }
