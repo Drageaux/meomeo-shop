@@ -26,7 +26,9 @@ module.exports = {
         // allow extra semicolons
         'semi': 0,
         // 4-space indent
-        'indent': 0
+        'indent': 0,
+        // unused vars
+        'no-unused-vars': 0
     },
     // Other configs...
     "globals": {

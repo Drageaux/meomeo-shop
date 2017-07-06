@@ -1,11 +1,13 @@
 <template>
     <div id="home">
         <carousel class="ui fluid container"></carousel>
+        <homeMasonry class="ui container"></homeMasonry>
     </div>
 </template>
 
 <script>
-    import carousel from './Home/Carousel.vue'
+    import carousel from './Home/Carousel.vue';
+    import homeMasonry from './Home/Home-Masonry.vue';
 
     export default {
         name: 'home',
@@ -15,7 +17,8 @@
             }
         },
         components: {
-            carousel
+            carousel,
+            homeMasonry
         }
     }
 </script>
