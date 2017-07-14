@@ -8,6 +8,7 @@
         <div id="main-nav" class="ui secondary pointing menu">
             <router-link to="/" class="item" active-class="active" exact>Trang Chủ</router-link>
             <router-link to="/docs" class="item" active-class="active">Docs</router-link>
+            <router-link to="/uploader" class="item" active-class="active">Uploader</router-link>
         </div>
         <router-view></router-view>
         <div id="footer">

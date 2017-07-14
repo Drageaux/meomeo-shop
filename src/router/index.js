@@ -2,6 +2,8 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Hello from '@/components/Hello';
 import Home from '@/components/Home';
+import Uploader from '@/components/Uploader';
+// '@' is equivalent to 'src'
 
 Vue.use(Router)
 
@@ -17,6 +19,11 @@ let router = new Router({
             name: 'Home',
             meta: {title: 'Trang Chủ'},
             component: Home
+        },
+        {
+            path: '/uploader',
+            name: 'Uploader',
+            component: Uploader
         }
     ]
 })
