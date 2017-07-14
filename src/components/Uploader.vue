@@ -2,12 +2,14 @@
     <div id="uploader">
         <div class="ui container">
             <dropzone id="dropzone"
-                      url="https://httpbin.org/post"
+                      url="/api/images"
                       acceptedFileTypes="image/*"
+                      maxFileSizeInMB="10"
                       v-on:vdropzone-success="showSuccess">
                 <!-- Optional parameters if any! -->
                 <input type="hidden" name="token" value="xxx">
             </dropzone>
+            <div class="ui button">Upload</div>
         </div>
     </div>
 </template>
